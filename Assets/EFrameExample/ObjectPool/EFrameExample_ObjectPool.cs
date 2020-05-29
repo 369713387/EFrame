@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace EFrame.Example
+namespace EFrame.Example.ObjectPool
 {
     public class EFrameSimpleMsg
     {

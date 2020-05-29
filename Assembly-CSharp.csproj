@@ -60,12 +60,51 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EFrame\Core\Common\Core\Game_MemoryStream.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\GameDataTableParser.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\Adler32.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\Deflate.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\InfBlocks.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\InfCodes.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\Inflate.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\InfTree.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\StaticTree.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\SupportClass.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\Tree.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\ZInputStream.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\Zlib.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\ZOutputStream.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\ZStream.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\zlib_NET_104\ZStreamException.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Core\ZlibHelper.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Ext\UnityEngineExt.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Util\Crc16Util.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Util\NumberUtil.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Util\SecurityUtil.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Util\StringUtil.cs" />
+    <Compile Include="Assets\EFrame\Core\Common\Util\TimeStrUtil.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\Data\Base\AbstractDBModel.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\Data\Base\AbstractEntity.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\Base\AbstractDic.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\Base\CodeReplaceBase.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\Base\LanguageEnum.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\Base\ReplaceBase.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\MultiLanguageCtrl.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\Scripts\CodeImgReplace.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\Scripts\CodeTextReplace.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\Scripts\ImgReplace.cs" />
+    <Compile Include="Assets\EFrame\Tools\FileDataSystem\MultiLanguage\Scripts\TextReplace.cs" />
     <Compile Include="Assets\EFrame\Tools\FSM\EFrame.FSM.cs" />
     <Compile Include="Assets\EFrame\Tools\ObjectPool\EFrame.ObjectPool.cs" />
     <Compile Include="Assets\EFrame\Tools\Singleton\EFrame.Singleton.cs" />
+    <Compile Include="Assets\EFrameExample\FileDataSystem\EFrameExample_FileDataSystem.cs" />
     <Compile Include="Assets\EFrameExample\FSM\EFrameExample_FSM.cs" />
     <Compile Include="Assets\EFrameExample\ObjectPool\EFrameExample_ObjectPool.cs" />
     <Compile Include="Assets\EFrameExample\Singleton\EFrameExample_Singleton.cs" />
+    <Compile Include="Assets\Scripts\FileDataSystem\Data\Create\DBModel\EFrameExample_ExcelDataDBModel.cs" />
+    <Compile Include="Assets\Scripts\FileDataSystem\Data\Create\Entity\EFrameExample_ExcelData.cs" />
+    <Compile Include="Assets\Scripts\FileDataSystem\MultiLanguage\Create\Dic\LanguageImgDic.cs" />
+    <Compile Include="Assets\Scripts\FileDataSystem\MultiLanguage\Create\Dic\LanguageTextDic.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/GitProject/EasyFrameWork/EFrame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -281,6 +320,9 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Unity2018.4.19f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>D:/GitProject/EasyFrameWork/EFrame/Assets/Plugins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>D:/GitProject/EasyFrameWork/EFrame/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>

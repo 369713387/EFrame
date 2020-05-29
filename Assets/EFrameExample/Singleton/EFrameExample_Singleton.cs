@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace EFrame.Example
+namespace EFrame.Example.Singleton
 {
 
     public class EFrameExample_Singleton : MonoBehaviour
