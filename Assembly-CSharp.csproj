@@ -60,8 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EFrame\Tools\EFrame.FSM.cs" />
+    <Compile Include="Assets\EFrame\Tools\FSM\EFrame.FSM.cs" />
+    <Compile Include="Assets\EFrame\Tools\ObjectPool\EFrame.ObjectPool.cs" />
+    <Compile Include="Assets\EFrame\Tools\Singleton\EFrame.Singleton.cs" />
     <Compile Include="Assets\EFrameExample\FSM\EFrameExample_FSM.cs" />
+    <Compile Include="Assets\EFrameExample\Singleton\EFrameExample_Singleton.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/GitProject/EasyFrameWork/EFrame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
