@@ -1,14 +1,16 @@
 // ========================================================
 // Des：自动生成请勿修改
-// Autor：Polaris 
-//CreateTime：2020-05-29 17:25:37
+// Autor：Yifun 
+//CreateTime：2020-06-01 23:17:21
 //版 本：v 1.0.0
 //===================================================
 using ReadExcel;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using EFrame;
+
+namespace EFrame
+{
 /// <summary>
 /// 生成LanguageImgDicdic数据包类
 /// </summary>
@@ -41,4 +43,5 @@ public partial class LanguageImgDic : AbstractDic<LanguageImgDic>
         }
     }
 
+}
 }
